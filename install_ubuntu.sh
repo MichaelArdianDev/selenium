@@ -33,8 +33,11 @@ apt install -y php5.6-common &&
 apt install -y php5.6-xmlrpc &&
 apt install -y php5.6-gd &&
 apt install -y php5.6-imagick &&
+apt install -y php5.6-mbstring &&
+apt install -y php7.2-mbstring &&
 apt install -y sshpass &&
 apt install -y whois &&
+apt install -y unzip &&
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install nodejs
@@ -61,5 +64,5 @@ apm install autoclose-html
 
 
 apt install clamav
-apt install clamav-daemon 
+apt install clamav-daemon
 apt install clamtk
